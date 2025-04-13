@@ -1,0 +1,1 @@
+// Tela Reduzir: Como reduzir resíduos

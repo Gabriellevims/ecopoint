@@ -1,0 +1,1 @@
+// Pontos de Coleta: Mapa/lista de ecopontos EcoPoint

@@ -1,0 +1,1 @@
+// Tela Inicial (Casa): Próximas coletas, locais recentes

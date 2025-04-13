@@ -1,0 +1,2 @@
+// Card para exibir locais (imagem, nome, endereço)
+// o card é um componente reutilizável que pode ser usado em diferentes partes do aplicativo, como na tela inicial ou na tela de detalhes de um local. Ele exibe informações sobre um local, como nome, endereço e imagem, e pode ser clicado para navegar para a tela de detalhes do local. O card é estilizado com uma sombra e um fundo branco, e tem um efeito de clique que muda a cor do fundo quando o usuário pressiona o card.

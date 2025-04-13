@@ -1,0 +1,1 @@
+// Empresas Parceiras: Lista de empresas de coleta
