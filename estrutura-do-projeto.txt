@@ -1,0 +1,37 @@
+# Estrutura do Projeto EcoPoint (Expo/React Native)
+
+app/
+├── (tabs)/                   # Telas principais (navegação por tabs)
+│   ├── index.tsx             → Tela Inicial (Casa): Próximas coletas, locais recentes
+│   ├── search.tsx            → Tela de Busca: Pesquisar ecopontos/empresas
+│   └── notifications.tsx     → Notificações: Alertas de coletas programadas
+│
+├── profile/
+│   └── index.tsx             → Perfil do Usuário: Meus dados, configurações, logout
+│
+├── tips/                     # Telas sobre os 3Rs
+│   ├── index.tsx             → Dicas Gerais: Resumo de Reduzir/Reciclar/Reutilizar
+│   ├── reduce.tsx            → Tela Reduzir: Como reduzir resíduos
+│   ├── recycle.tsx           → Tela Reciclar: Guia de reciclagem
+│   └── reuse.tsx             → Tela Reutilizar: Dicas para reutilização
+│
+├── companies/
+│   └── index.tsx             → Empresas Parceiras: Lista de empresas de coleta
+│
+├── ecopoints/
+│   └── index.tsx             → Pontos de Coleta: Mapa/lista de ecopontos EcoPoint
+│
+├── schedule/
+│   └── index.tsx             → Horários de Coleta: Agenda por bairro
+│
+├── components/               # Componentes reutilizáveis
+│   ├── Header.tsx            → Cabeçalho com logo "ECO POINT"
+│   ├── EcoCard.tsx           → Card para exibir locais (imagem, nome, endereço)
+│   └── SearchBar.tsx         → Campo de busca estilizado
+│
+└── _layout.tsx               → Configuração das Tabs (navegação inferior)
+
+# Arquivos Adicionais
+- package.json                → Dependências do projeto (expo, react-navigation, etc.)
+- app.json                    → Configuração do Expo (nome, ícone, splash screen)
+- tsconfig.json               → Configuração do TypeScript (se usado)
