@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "ecopoint",
+    "slug": "ecopoint",
+    "scheme": "ecopoint",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo_verde_1024x1024.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/logo_verde_1024x1024.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo_verde_1024x1024.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.gabriellevims.ecopoit"
+    },
+    "web": {
+      "favicon": "./assets/images/logo_verde.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "66d08fe2-ffa2-4b1c-a0fe-7a8aed0184ba"
+      }
+    }
+  }
+}
