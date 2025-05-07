@@ -1,7 +1,7 @@
 import React from "react"; 
 import { View, Text } from "react-native";
 
-const SearchBar = () => {
+const login = () => {
     return (
         <View>
             <Text>empresas</Text>
@@ -9,4 +9,4 @@ const SearchBar = () => {
     );
 };
 
-export default SearchBar;
+export default login;

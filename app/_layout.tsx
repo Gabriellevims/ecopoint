@@ -8,6 +8,8 @@ const Layout = () => {
     const router = useRouter();
     return (
         <SafeAreaView style={styles.container}>
+
+            
             {/* Header */}
             <View style={styles.header}>
                 <TouchableOpacity onPress={() => router.push('/home')}>

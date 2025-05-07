@@ -9,13 +9,14 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~53.0.7",
-    "expo-router": "^5.0.5",
+    "expo": "~53.0.8",
+    "expo-router": "~5.0.6",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
-    "react-native": "0.79.2",
-    "react-native-svg": "15.11.2",
     "react-dom": "19.0.0",
+    "react-native": "0.79.2",
+    "react-native-maps": "1.20.1",
+    "react-native-svg": "15.11.2",
     "react-native-web": "^0.20.0"
   },
   "devDependencies": {
